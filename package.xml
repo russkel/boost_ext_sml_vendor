@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-model
+  href="http://download.ros.org/schema/package_format2.xsd"
+  schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="2">
+  <name>boost_ext_sml_vendor</name>
+  <version>1.1.4</version>
+  <description>Wrapper around boost-ext sml - State Machine Library.</description>
+  <maintainer email="russ@rw.id.au">Russ Webber</maintainer>
+  <license>BSL</license>  <!-- boost-ext/sml is Boost Software License -->
+
+  <url type="website">https://github.com/boost-ext/sml</url>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>boost</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
